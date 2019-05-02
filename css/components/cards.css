@@ -1,0 +1,128 @@
+.banner{
+  background-image: url("https://vignette.wikia.nocookie.net/uncyclopedia/images/e/ec/MatrixCode.jpg/revision/latest?cb=20080905034910&format=original");
+  height: 580px;
+  display: flex;
+    align-items: center;
+}
+
+.header{
+width: 700px;
+margin: 0 auto;
+  color: white;
+}
+
+.banner .header h1{
+    font-family: Poppins;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ .banner .header p{
+      color: white;
+    opacity: .7;
+    font-size: 20px;
+    font-family: Open Sans;
+}
+
+
+.banner .header a{
+    display: inline-block;
+    background-color: #1EDD88;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    font-family: Open Sans;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.content-container{
+  text-align: center;
+      padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 35px;
+}
+
+.cards{
+    font-family: Poppins;
+    font-weight: bold;
+    margin: auto;
+      display: flex;
+   justify-content: space-between;
+ flex-direction: row;
+ text-align: center;
+}
+
+.cards p{
+      opacity: .5;
+      color: grey;
+}
+
+
+
+.card-a{
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card-a img{
+      height: 100px;
+
+}
+
+.card-b{
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card-b img{
+        height: 100px;
+}
+
+.card-c{
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card-c img{
+        height: 100px;
+}
+
+/*----------------------------------------------------------*/
+
+.footer {
+    text-align: center;
+      background-color: #2c2b2b;
+height: 220px;
+}
+
+.footer .content-box{
+padding-top: 75px;
+}
+
+
+.footer .content-box img{
+height: 40px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.footer h3{
+    color: #6B6C6C;
+        font-family: Open Sans;
+}
+
+
